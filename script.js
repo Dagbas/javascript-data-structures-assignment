@@ -13,9 +13,9 @@ let mySampleArray = ["Index 0", "Index 1", "Index 2"];
 //the values can be any data type
 
 let mySampleObject = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 50,
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
 };
 
 //END OF REVIEW
@@ -33,6 +33,29 @@ let mySampleObject = {
 
 //Make sure to make at least 3 animal objects with these keys inside of the myZooAnimals array!
 
-let myZooAnimals;
+const myZooAnimals =
+    [ 
+        {
+            animalType: "Crocodile",
+            name: "Smiley",
+            age: 55,
+            pictureURL:"https://plus.unsplash.com/premium_photo-1661963625984-6bb1c3a70aaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2820&q=80" 
+        },
+        {
+            animalType: "California Condor",
+            name: "Spread",
+            age: 9,
+            pictureURL:"https://images.unsplash.com/photo-1615935877994-6548a6142e88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+         },
+        {
+            animalType: "Ibex",
+            name: "Tackle" ,
+            age: 6,
+            pictureURL: "https://images.unsplash.com/photo-1623692747804-45f4d300a8be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80"
+        } ,
+    ]
+
 
 //END OF ASSIGNMENT
+
+
